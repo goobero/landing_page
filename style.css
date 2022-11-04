@@ -93,14 +93,20 @@ a {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding: 90px;
+    padding-top: 50px;
+}
+
+.quote .container {
+    width: 800px;
     display: flex;
+    flex-direction: column;
 }
 
 .quote-author {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
+    align-self: flex-end;
 }
 
 .call .container {

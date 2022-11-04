@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -48,6 +48,13 @@ img {
     gap: 80px;
 }
 
+.hero-container button {
+    padding: 3px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882f6;
+}
+
 
 ul {
     display: flex;
@@ -76,6 +83,21 @@ a {
     font-weight: bold;
 }
 
-.container .boxes-container {
+.boxes-container {
     display: flex;
+    padding: 80px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 90px;
+}
+
+.quote-author {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
 }

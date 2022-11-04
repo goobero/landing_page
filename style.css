@@ -1,8 +1,10 @@
 body {
     font-family: "Rotobo", sans-serif;
-    width: 900px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .header .container {
     background-color: #1F2937;
@@ -29,6 +31,12 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.hero-container {
+    display: flex;
+}
+
+
 ul {
     display: flex;
     gap: 20px;
@@ -42,6 +50,10 @@ a {
 }
 
 img {
-    width: 100px;
+    width: 300px;
     height: auto;
+}
+
+.boxers .container {
+    display: flex;
 }

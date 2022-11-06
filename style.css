@@ -93,6 +93,12 @@ a {
     height: 300px;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;

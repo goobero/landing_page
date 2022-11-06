@@ -21,7 +21,7 @@ img {
     padding-bottom: 100px;
 }
 
-.header-container h1 {
+.nav h1 {
     font: 24px;
     color: #F9FAF8;
 }
@@ -36,7 +36,7 @@ img {
     color: #E5E7EB;
 }
 
-.header-container {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,13 +79,18 @@ a {
 .container .text {
     font-size: 36px;
     color: #1F2937;
-    text-align: center;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .boxes-container {
     display: flex;
     margin-bottom: 100px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 .quote {

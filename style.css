@@ -141,6 +141,10 @@ a {
     height: 30px;
 }
 
+#lighter-text {
+    color: rgb(225, 225, 225);
+}
+
 footer {
     background-color: #1F2937;
     color: white;

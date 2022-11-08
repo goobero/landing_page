@@ -154,13 +154,13 @@ a {
     height: 30px;
 }
 
-.container .call-button-container {
+.container .call-text-container p {
     margin: 0px;
 }
 
 #lighter-text {
     color: rgb(225, 225, 225);
-    margin: 0;
+    margin: 0px;
 }
 
 footer {

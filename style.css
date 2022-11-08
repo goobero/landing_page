@@ -142,7 +142,6 @@ a {
     margin: 70px 70px;
     padding: 15px;
     align-items: center;
-    line-height: 1.3px;
 }
 
 .call-button-container button {
@@ -154,8 +153,13 @@ a {
     height: 30px;
 }
 
+.container .call-button-container {
+    margin: 0px;
+}
+
 #lighter-text {
     color: rgb(225, 225, 225);
+    margin: 0;
 }
 
 footer {
